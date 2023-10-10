@@ -47,8 +47,7 @@ public class BST<E extends Comparable> {
     //向以node为根的二分搜索树中插入元素e，递归算法
     //返回插入新节点后的二分搜索树
     public Node add(Node node, E e) {
-if(e instanceof  Node){
-}
+        String sql = "select * from user";
       /* if (e.equals(node.e)){
            return;
        }else if (e.compareTo(node.e) < 0 && node.left == null){
